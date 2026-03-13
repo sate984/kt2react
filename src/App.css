@@ -1,0 +1,237 @@
+body{
+    user-select: none;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.image-placeholder {
+
+  width: 100%;
+  height: 100%;
+  min-height: 450px;
+}
+.buttons{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxis{
+  width: 30%;
+  height: 20%;
+  min-height: 100px;
+  border: #333 solid 1px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.boxisMini{
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  height: 20%;
+  min-height: 40px;
+  padding: 10px;
+  gap: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #f6f7eb;
+}
+
+.logo-placeholder {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  font-size: 14px;
+}
+.navb {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  user-select: none;
+}
+
+
+.contact-btn {
+  background-color: #f6b042;
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.hero {
+  display: flex;
+  background-color: #f6f7eb;
+  padding: 80px;
+  align-items: center;
+  max-width: 1440px;
+}
+.hhru{
+  margin: 5px;
+}
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-right: 60px;
+}
+
+.hero-content h1 {
+  font-size: 38px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 600;
+  color: #2e417b;
+}
+
+.hero-content p {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.offers {
+  display: flex;
+}
+
+.offers-content {
+  flex: 1;
+  background-color: #61c4d9;
+  color: white;
+  padding: 100px 80px;
+}
+
+.offers-content h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.offers-content p {
+  line-height: 1.8;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.offers-image {
+  flex: 1;
+}
+
+.info {
+  padding: 100px 80px;
+  text-align: center;
+  background-color: white;
+}
+
+.info p {
+  margin-bottom: 30px;
+  font-style: italic;
+  line-height: 1.8;
+  font-weight: 600;
+  font-size: 18px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2e417b;
+}
+
+.services-grid {
+  display: flex;
+  height: 350px;
+}
+
+.service-card {
+  flex: 1;
+  padding: 60px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.service-card hr {
+  border: 0;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.dark-blue {
+  background-color: #2e417b;
+}
+
+.bright-blue {
+  background-color: #0056ce;
+}
+
+.green {
+  background-color: #79b084;
+}
+
+.rental {
+  display: flex;
+}
+
+.rental-image {
+  flex: 1;
+}
+
+.rental-content {
+  flex: 1;
+  padding: 100px 80px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rental-content h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 600;
+  color: #2e417b;
+}
+
+.rental-content p {
+  line-height: 1.8;
+  font-style: italic;
+  font-size: 16px;
+  color: #333;
+}
